@@ -17,3 +17,12 @@ kramdown:
 collections:
   artists:
     output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: artists
+    values:
+      layout: artist
+      test: value
