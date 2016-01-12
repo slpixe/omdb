@@ -9,7 +9,7 @@ layout: default
     <ul class="post-list">
         {% for artist in site.artists %}
             <h2>
-                <a href="{{artist.url}}">
+                <a href="{{site.baseurl}}{{artist.url}}">
                     {{artist.artist}}
                 </a>
             </h2>

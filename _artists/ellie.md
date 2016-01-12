@@ -16,7 +16,7 @@ works:
         duration: "6:49"
 ---
 
-#HELOOOO
+# HELOOOO
 
 {% for artist in site.artists %}
   <h2>{{ artist.title }}</h2>
