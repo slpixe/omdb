@@ -1,17 +1,18 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: OMDB - Open Music Data Base
+email: slpixe@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/omdb" # the subpath of your site, e.g. /blog/
-url: "http://slpixe.github.io/omdb" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+  Jekyll Site for messing around with artists/songs
+baseurl: "/omdb/" # the subpath of your site, e.g. /blog/
+url: "http://slpixe.github.io/omdb/" # the base hostname & protocol for your site
+twitter_username: slpixe
+github_username:  slpixe
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  input: GFM
 
 collections:
   artists:
